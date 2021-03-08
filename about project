@@ -1,0 +1,13 @@
+# Shop-Bill-Paper-Generator
+A shop keeper can easily make a bill by just adding the products and their price in .csv file and then a bill be generated once he run this software.
+
+Steps to make a bill paper:-
+
+1. create a bill.csv file in your pc (create in same directory where you have billPaperGenerator.exe file).
+2. Open bill.csv any time a customer buy some products.
+      Now, type your shop name in the first line.
+      In second line type your shop address.
+      In third line just enter the tax (Like gst) percentage.
+      Now, from fourth line, enter the product name and the price.
+3. Execute billPaperGenerator.exe in your pc.
+4. Now output.txt is ready and it is your bill paper. so now you can print output.txt which represent the bills.
