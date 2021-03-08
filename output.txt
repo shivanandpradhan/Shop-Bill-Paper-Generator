@@ -1,6 +1,6 @@
 
-			My Shop Name,
-	"Kothi Morh, Bari Brahmana, Jammu",
+			My Shop Name
+	"Kothi Morh, Bari Brahmana, Jammu"
 
  --------------------------------------
 
