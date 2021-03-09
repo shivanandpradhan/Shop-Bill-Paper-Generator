@@ -30,9 +30,9 @@ int main(){
 	
 	
 	// printing the shop and address of the shop
-	of << "\n\t\t\t"<<str<<"\n";
-	of<<"\t"<<adr<<"\n\n";
-	of<<" --------------------------------------\n\n";
+	of << "\t\t"<<str<<"\n";
+	of<<"\t"<<adr<<"\n";
+	of<<" --------------------------------------\n";
 	of<< " Purchased Items : \n";
 	
 	// initial item no. 1
@@ -75,7 +75,7 @@ int main(){
 			total += x;  // increment total by x
 			
 			// displaying item with their price
-			of <<"\n " << i++ <<"). "<<v[0]<<"\t\t\t" << x << endl;
+			of << i++ <<"). "<<left<<setw(12)<<v[0]<<right << setw(20) << x << endl;
 			
 		}
 	
@@ -83,22 +83,36 @@ int main(){
 	}
 	
 	//displaying total and tax
-	of<<"\n --------------------------------------\n\n";
-	of << " Total \t\t\t\t"<<total<<endl;
+	of<<" --------------------------------------\n";
+	of << " "<< left << setw(12) << "Total : "<<right << setw(23)<<total<<endl;
 	
 	gst = (float)12/100 * total;  // calculating tax.
 	
-	of << " Tax : \t\t\t\t" <<gst<<endl;
+	of << " "<< left << setw(12) << "Tax : "<<right << setw(23)<< gst <<endl;
 	
 	of<<" --------------------------------------\n";
 	
 	// Total payment to be done.
-	of << "\n You have to Pay : "<<total + gst<<endl;
+	of << " You have to Pay : "<<total + gst<<endl;
 	
 	// close output and input file.
 	of.close();
 	
 	file.close();
+	
+	// open a output file once the bill is made so user can print the bill.
+	
+	// relative path for output.txt
+	string FULL_TXT_PATH = ".\\output.txt" ;
+	
+	// path for the program in which the file will be opened.
+    const string program = "C:\\windows\\system32\\notepad.exe" ;
+	 
+    const char quote = '\'' ; // required if the path contains space
+    
+    const std::string command = program + ' ' + quote + FULL_TXT_PATH + quote ;
+
+    std::system( command.c_str() ) ;
 	
 	return 0;
 }

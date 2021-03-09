@@ -1,25 +1,14 @@
-
-			My Shop Name
+		My Shop Name
 	"Kothi Morh, Bari Brahmana, Jammu"
-
  --------------------------------------
-
  Purchased Items : 
-
- 1). Detol			12
-
- 2). Rin			23
-
- 3). Orange			21.5
-
- 4). Rajma			56.3
-
- 5). Moong			22.45
-
+1). Detol                         12
+2). Rin                           23
+3). Orange                      21.5
+4). Rajma                       56.3
+5). Moong                      22.45
  --------------------------------------
-
- Total 				135.25
- Tax : 				16.23
+ Total :                      135.25
+ Tax :                         16.23
  --------------------------------------
-
  You have to Pay : 151.48
