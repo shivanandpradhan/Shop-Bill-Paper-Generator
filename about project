@@ -10,4 +10,5 @@ Steps to make a bill paper:-
       In third line just enter the tax (Like gst) percentage.
       Now, from fourth line, enter the product name and the price.
 3. Execute billPaperGenerator.exe in your pc.
-4. Now output.txt is ready and it is your bill paper. so now you can print output.txt which represent the bills.
+      On executing .exe file customer shopping bill paper will be opened in a notepad. so now you can print it directly from notepad.
+
